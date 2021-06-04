@@ -1,0 +1,19 @@
+[
+   
+    {
+        "id":0,
+        "Title1":"Find the",
+         "Title2":"Perfect",
+        "content1":"Connecting the people through an easy to use web page application",
+         "content2":"built for all the device.",
+        "Dropdown1":" Motor insurance",
+        "Dropdown2":" Vehicle Type",
+        "imagename":"family",
+
+      "dropdowns":[
+         {"dropdownslink1":"dropdownlink1",
+        "dropdownslink2":"dropdownlink2"}]
+    }
+
+    
+]

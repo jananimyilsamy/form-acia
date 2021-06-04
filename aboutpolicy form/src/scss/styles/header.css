@@ -1,0 +1,107 @@
+.header {
+  /* margin-top: -550px; */
+  background-image: url('../../assets/images/header.png');
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+}
+.header1 {
+  background-image: url('../../assets/images/header.png');
+  /* height: 720px;
+  background-size: cover;
+  background-position: center; */
+}
+.navbar-expand-lg {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navbar-light {
+  color: black;
+  border-bottom: 1px solid white;
+}
+.svg-inline--fa {
+  color: white;
+}
+.envelope-icon {
+  color: white;
+  font: normal normal normal 19px Segoe UI;
+  left: 15px;
+}
+.phone-icon {
+  color: white;
+  font: normal normal normal 19px Segoe UI;
+}
+#my-nav {
+  align-items: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.dropdown .dropdown-menu .dropdown-item {
+  color: #5a2f7d;
+}
+.dropdown-menu {
+  border-radius: 20px;
+}
+.dropdown-toggle:after {
+  display: none;
+}
+.get-quote-button {
+  width: 176px;
+  height: 56px;
+  border-radius: 33px;
+  background: transparent linear-gradient(90deg, #ff7b89 0%, #f69c57 100%) 0% 0%
+    no-repeat padding-box;
+  border: none;
+}
+.get-quote {
+  font: normal normal bold 18px/22px Karla;
+  color: #ffffff;
+}
+.mx-4 {
+  position: relative;
+  top: 100px;
+}
+.title1 {
+  color: #ffffff;
+  font: normal normal 300 60px Gilroy;
+}
+.title2 {
+  color: #ffffff;
+  font: normal normal 800 60px Gilroy;
+}
+.content {
+  color: #ffffff;
+  font: normal normal 300 18px Gilroy;
+}
+.container-button {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 33px;
+  width: 400px;
+  height: 80px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.dropdown-title1 {
+  font: normal normal normal 17px/20px Karla;
+}
+.dropdown-title2 {
+  font: normal normal normal 17px/20px Karla;
+}
+.container-button .btn-group .go-button {
+  border-radius: 33px;
+  background: transparent linear-gradient(90deg, #ff7b89 0%, #f69c57 100%) 0% 0%
+    no-repeat padding-box;
+  border: none;
+  width: 81px;
+  height: 46px;
+  color: white;
+}
+.go {
+  font: normal normal bold 18px/22px Karla;
+  color: #ffffff;
+}
+.family-image {
+  position: relative;
+  top: 25px;
+}

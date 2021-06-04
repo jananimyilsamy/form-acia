@@ -1,0 +1,90 @@
+.footerContainer {
+  height: max-content;
+  background: transparent url('../../assets/images/Group 228.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  opacity: 1;
+}
+ 
+.footer-outer-Row{
+margin-left: 75px;
+}
+ 
+.footer-Column{
+  padding-top: 115px;
+}
+ 
+.description {
+padding-top: 15px;
+text-align: left;
+padding-right: 25px;
+font: normal normal 300 13px/19px Gilroy;
+color: #7768A2;
+opacity: 1;
+}
+ 
+.aciaLogo {
+  width: 132px;
+  height: 36px;
+  display: inline-block;
+  background: transparent url('../../assets/images/logo.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  
+}
+.alignText{
+  color: #ffff;
+  font: normal normal 300 18px/33px Gilroy;
+  font-weight: lighter;
+}
+ 
+.columnTitle {
+  display: inline-flex;
+  font: normal normal 800 18px/33px Gilroy;
+  color: #ffff;
+  font-weight: bolder;
+}
+
+
+ 
+.facebook {
+  width: 41px;
+  height: 41px;
+}
+ 
+.twitter {
+  width: 41px;
+  height: 41px;
+ 
+}
+ 
+.linkedIn {
+  width: 41px;
+  height: 41px;
+}
+ 
+.youTube {
+  width: 41px;
+  height: 41px;
+}
+ 
+.horizontalLine {
+padding:0 !important;
+margin: 0 !important;
+background-color: white;
+}
+ 
+.bottomLine {
+ 
+text-align:center;
+font: normal normal 300 17px/19px Gilroy;
+color: #FFFFFF;
+opacity: 1;
+}
+ 
+.innerLink{
+  color:white;
+  text-decoration:none;
+  font: normal normal 300 18px/33px Gilroy;
+  font-weight: lighter;
+}
+
+ 
