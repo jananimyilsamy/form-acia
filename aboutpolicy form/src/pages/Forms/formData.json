@@ -239,7 +239,7 @@
                         "field_label": "Select where the Car is kept overnight",
                         "field_mandatory": "no",
                         "field_type": "select",
-                        "field_value": "",
+                        "field_value": "yes",
                         "field_options": [
                             {
                                 "option_label": "Garagged"
@@ -266,7 +266,7 @@
                        {
                         "field_id": "policy_holder_anothervehicle",
                         "field_label": "Does the policy holder own or use another vehicle?",
-                        "field_mandatory": "no",
+                        "field_mandatory": "yes",
                         "field_type": "select",
                         "field_value": "",
                         "errors": "",
@@ -451,7 +451,7 @@
                             {
                                 "field_id": "years_of_no-claim",
                                 "field_label": "How many years of no-claim bonus does the policy holder have?",
-                                "field_mandatory": "yes",
+                                "field_mandatory": "no",
                                 "field_type": "select",
                                 "field_value": "",
                                 "field_options": [
@@ -593,7 +593,7 @@
                            {
                         "field_id": "current_no_claim_bonus",
                         "field_label": "Enter value of Electrical Accessories",
-                        "field_mandatory": "yes",
+                        "field_mandatory": "no",
                        "field_type": "text",
                         "field_value": ""
                         
@@ -601,7 +601,7 @@
                     {
                         "field_id": "Personal_Accident_covervalue",
                         "field_label": "Insured value of electrical accessories",
-                        "field_mandatory": "yes",
+                        "field_mandatory": "no",
                         "field_type": "text",
                         "field_value": ""
                     
@@ -646,7 +646,7 @@
                         {
                         "field_id": "Non-electrical_accessoriesvalue",
                         "field_label": "Enter value of Non-Electrical Accessories",
-                        "field_mandatory": "yes",
+                        "field_mandatory": "no",
                        "field_type": "text",
                         "field_value": ""
                         
@@ -654,7 +654,7 @@
                     {
                         "field_id": "Non-electrical_accessories_covervalue",
                         "field_label": "Insured value of Non-electrical accessories",
-                        "field_mandatory": "yes",
+                        "field_mandatory": "no",
                         "field_type": "text",
                         "field_value": ""
                     
@@ -719,7 +719,7 @@
                          {
                         "field_id": "sum_of_paid_passenger",
                         "field_label": "Enter the sum you want to insure for each paid passenger",
-                        "field_mandatory": "no",
+                        "field_mandatory": "yes",
                         "field_placeholder": "",
                         "field_type": "text",
                         "field_value": ""
@@ -755,7 +755,7 @@
                            {
                         "field_id": "CNG_fitment_accessoriesvalue",
                         "field_label": "Enter value of  CNG fitment",
-                        "field_mandatory": "yes",
+                        "field_mandatory": "no",
                        "field_type": "text",
                         "field_value": ""
                         
@@ -763,7 +763,7 @@
                     {
                         "field_id": "CNG_fitment_covervalue",
                         "field_label": "Insured value of  CNG fitment",
-                        "field_mandatory": "yes",
+                        "field_mandatory": "no",
                         "field_type": "text",
                         "field_value": ""
                     
@@ -779,7 +779,28 @@
                         ]
                     } 
                 ]
-          } 
+          } ,
+          {
+            "layout": "row",
+            "fields":[
+          {
+            "field_id": "add_cover_breakdown",
+            "field_label": "Do you want to add cover for breakdown?",
+            "field_mandatory": "yes",
+            "field_type": "radio",
+            "field_value": "",
+            "field_options": [
+                {
+                    "option_id": "breakdown_yes_option",
+                    "option_label": "Yes",
+                    "option_value": "Yes"
+                },
+                {
+                    "option_id": "breakdown_no_option",
+                    "option_label": "No",
+                    "option_value": "No"
+                }
+] }]}
         
         
         
